@@ -6,23 +6,28 @@ on:
 
 jobs:
   build:
-
+  
     runs-on: ubuntu-latest
+     - echo "test 1"
     strategy:
-      matrix:
+       matrix:
         node-version: [16.20.1]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+    - uses: actions/setup-node@v3
+    - run: echo "test 2"
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name: Install required libraries to run and deploy build folder to s3 bucket
     - run: |
+        echo "test 3"
         npm install
+        echo "test 4"
         npm run build
+        echo "test 5"
         npm test
     - name: configure aws secret keys and deploy files of bild folder to s3 bucket.
       env:
@@ -30,9 +35,11 @@ jobs:
         AWS_SK_VALUE: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REG_VALUE: ${{ secrets.AWS_REGION }}
     - run: |
+        echo "test 6"
         aws configure set aws_access_key_id $AWS_AK_VALUE 
         aws configure set aws_secret_access_key $AWS_SK_VALUE 
         aws configure set region $AWS_REG_VALUE
+        echo "test 7"
         aws s3 ls
         aws s3 sync build/ s3://my-first-react-app1
         aws s3 ls s3://my-first-react-app1/
