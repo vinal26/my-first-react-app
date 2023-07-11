@@ -1,0 +1,47 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: react CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - name: Install required libraries to run and deploy build folder to s3 bucket
+    - run: |
+        npm install
+        npm run build
+        npm test
+    - name: configure aws secret keys and deploy files of bild folder to s3 bucket.
+      env:
+        AWS_AK_VALUE: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SK_VALUE: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REG_VALUE: ${{ secrets.AWS_REGION }}
+    - run: |
+        aws configure set aws_access_key_id $AWS_AK_VALUE 
+        aws configure set aws_secret_access_key $AWS_SK_VALUE 
+        aws configure set region $AWS_REG_VALUE
+        aws s3 ls
+        
+        aws s3 sync build/ s3://my-first-react-app1
+        aws s3 ls s3://my-first-react-app1/
+
+
+
