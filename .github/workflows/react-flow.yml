@@ -7,8 +7,7 @@ on:
 jobs:
   build:
   
-    runs-on: ubuntu-latest
-     echo "test 1"
+    runs-on: ubuntu-22.04
     #strategy:
        #matrix:
         #node-version: [16.20.1]
