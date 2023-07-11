@@ -9,9 +9,9 @@ jobs:
   
     runs-on: ubuntu-latest
      echo "test 1"
-    strategy:
-       matrix:
-        node-version: [16.20.1]
+    #strategy:
+       #matrix:
+        #node-version: [16.20.1]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
      - uses: actions/checkout@v3
