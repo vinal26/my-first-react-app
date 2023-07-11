@@ -13,8 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
-        node-version: [16.x]
+        node-version: [16.20.1]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -39,7 +40,6 @@ jobs:
         aws configure set aws_secret_access_key $AWS_SK_VALUE 
         aws configure set region $AWS_REG_VALUE
         aws s3 ls
-        
         aws s3 sync build/ s3://my-first-react-app1
         aws s3 ls s3://my-first-react-app1/
 
