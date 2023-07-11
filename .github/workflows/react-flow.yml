@@ -7,15 +7,15 @@ on:
 jobs:
   build:
   
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu 20.04
     #strategy:
        #matrix:
         #node-version: [16.20.1]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
-     - uses: actions/checkout@v3
+     - uses: actions/checkout@v1
      - name: Use Node.js ${{ matrix.node-version }}
-       uses: actions/setup-node@v3
+       uses: actions/setup-node@v1
         echo "test 2"
        with:
         node-version: ${{ matrix.node-version }}
@@ -23,7 +23,8 @@ jobs:
      - name: Install required libraries to run and deploy build folder to s3 bucket
        run: |
           echo "test 3"
-          npm install
+          node --version
+          npm ci --production
           echo "test 4"
           npm run build
           echo "test 5"
