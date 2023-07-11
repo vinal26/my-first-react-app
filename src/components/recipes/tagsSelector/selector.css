@@ -1,0 +1,76 @@
+  ul.image-selector {
+    list-style-type: none;
+  }
+  
+  .image-selector li {
+    display: inline-block;
+  }
+  
+  .image-selector input[type="checkbox"][id^="myCheckbox"] {
+    display: none;
+  }
+  
+  .image-selector label {
+
+    border: 2px solid #d2d2d2;
+    border-radius: 6px;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 0 10px 10px 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .image-selector li:first-child label {
+    margin-left: 0;
+  }
+
+  .image-selector label .text {
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+  
+  .image-selector label:before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid grey;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 21px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+  }
+  
+  .image-selector label img {
+    height: 100px;
+    width: 100px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+  }
+  
+  .image-selector :checked + label {
+    background-color: #1f7e78;
+    border-color: #1f7e78;
+    color: #fff;
+  }
+  
+  .image-selector :checked + label:before {
+    content: "✓";
+    background-color: #1f7e78;
+    border: 2px solid #fff;
+    transform: scale(1);
+  }
+  
+  .image-selector :checked + label img {
+    transform: scale(0.9);
+    /* box-shadow: 0 0 5px #333; */
+    z-index: -1;
+  }

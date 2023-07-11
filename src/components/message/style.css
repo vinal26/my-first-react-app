@@ -1,0 +1,239 @@
+.message_header {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  height: 70px;
+  width: 100%;
+  border-radius: 4px;
+  padding-top: 10px;
+}
+
+.message_profile8 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.message_title {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: black;
+  margin-top: 6px;
+  letter-spacing: 0.2px;
+}
+
+.message_title button {
+  background: #1f7e78;
+  border-radius: 30px;
+  height: 45px;
+  border: 0;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  width: 28%;
+  letter-spacing: 0.4px;
+  float: right;
+  margin-right: 20px;
+  position: relative;
+  top: -5px;
+}
+
+@media screen and (min-width: 501px) and (max-width: 2560px) {
+  .message_title span {
+    display: none;
+  }
+}
+
+.message_online {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #4daa28;
+  margin-top: -17px;
+  letter-spacing: 0.2px;
+}
+
+.message_sidebar {
+  height: 460px;
+  width: 101%;
+  box-shadow: 0px 4px 10px rgba(204, 201, 202, 0.5);
+  border-radius: 12px;
+  padding: 22px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.message_sidebar::-webkit-scrollbar {
+  width: 8px;
+  background: white;
+}
+/* Optional: show position indicator in red */
+.message_sidebar::-webkit-scrollbar-thumb {
+  background: white;
+}
+.message_sidebar:hover::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 7px;
+}
+
+.side_image8 {
+  height: 53px;
+  width: 53px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  right: -4px;
+}
+
+.messide_title {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: black;
+  margin-top: 0px;
+  letter-spacing: 0.2px;
+}
+
+.messide_title span {
+  float: right;
+  color: #918f8f;
+  font-size: 10px;
+  margin-top: 5px;
+  font-weight: 400;
+}
+
+.messide__text {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: black;
+  margin-top: -17px;
+  letter-spacing: 0.2px;
+  width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.message_badge {
+  background: #1f7e78;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  color: #fff;
+  content: attr(badge);
+  font-size: 11px;
+  margin-top: -10px;
+  min-width: 22px;
+  padding: 3px;
+  position: absolute;
+  right: 3px;
+  text-align: center;
+}
+
+.message_hr5 {
+  margin-top: 0px;
+  width: 111%;
+  border: 1px solid #dadada;
+}
+
+.message_chat5 {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 390px;
+  padding: 10px 10px 10px 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.message_chat5::-webkit-scrollbar {
+  width: 8px;
+  background: white;
+}
+/* Optional: show position indicator in red */
+.message_chat5::-webkit-scrollbar-thumb {
+  background: white;
+}
+.message_chat5:hover::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 7px;
+}
+
+.chat_inputsection {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.chat_inputsection input {
+  height: 56px;
+  box-shadow: 0px 4px 20px rgba(55, 55, 55, 0.25);
+  border-radius: 34px;
+  width: 88%;
+  border: 0;
+  font-size: 15px;
+  outline: none;
+  font-weight: 500;
+  color: black;
+  padding-left: 35px;
+  padding-right: 35px;
+  letter-spacing: 0.3px;
+  margin-right: 15px;
+}
+
+.chat_inputsection img {
+  background-color: #1f7e78;
+  padding: 15px;
+  border-radius: 50%;
+  height: 58px;
+}
+
+.chat_inputsection button{
+  border:0;background: none;
+}
+
+.chat_image6 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chat_para54 {
+  background-color: #1d7771;
+  padding: 20px 25px 20px 28px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px 30px 30px 0px;
+  margin-left: -3%;
+  display: inline-block;
+}
+
+.chat_parasec {
+  background-color: #e7e7e7;
+  padding: 20px 25px 20px 28px;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px 30px 0px 30px;
+  display: inline-block;
+}
+
+.today_text {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  background-color: white;
+}
+
+.message_title .textcover1 {
+  font-weight: 500 !important;
+}
+
+.messageSingle{
+  cursor: pointer;
+}

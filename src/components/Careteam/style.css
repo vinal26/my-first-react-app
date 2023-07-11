@@ -1,0 +1,308 @@
+/* .care_viewprofile{
+    background-color: #1f7e78;
+    height: 35px;
+    letter-spacing: 0.4px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 30px;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    border: 0;
+    text-transform: capitalize;
+    margin-top:8px;
+    margin-right: 16px;
+}
+
+.care_delete{
+    height: 20px;
+    margin-right: 20px;
+}
+.careteam_plusadd {
+    color: #1f7e78;
+    font-size: 50px;
+    position: sticky;
+    box-shadow: 0px 4px 20px #57b7b1;
+    border-radius: 50%;
+    bottom: 20px;left: 100% !important;
+    background-color: white;
+    border-radius: 50%;
+} */
+
+.careteam_box13 {
+  height: 200px;
+  width: 98%;
+  border-radius: 15px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  color: white;
+  letter-spacing: 0.9px;
+}
+
+.carebox_back1 {
+  background-color: #c53245;
+}
+.carebox_back2 {
+  background-color: #d7b465;
+}
+.carebox_back3 {
+  background-color: #74a9c1;
+}
+.carebox_back4 {
+  background-color: #a5a7a8;
+}
+.carebox_back5 {
+  background-color: #f27c5e;
+}
+.carebox_back6 {
+  background-color: #f7ae46;
+}
+.carebox_back7 {
+  background-color: #44a5d8;
+}
+.carebox_back8 {
+  background-color: #9cc04e;
+}
+
+.careteam_box13 h1 {
+  font-size: 50px;
+  font-weight: 400 !important;
+}
+
+.careteam_box13 h5 {
+  font-size: 24px;
+}
+
+.careteam_box13 div .icon {
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.chartbox_chart5 {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  border-radius: 10px;
+  height: 270px;
+  padding-bottom: 65px !important;
+}
+
+.chartbox_chart5 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.careteam_para0 {
+  color: #1f7e78;
+}
+
+.list_plusicon {
+  color: #1f7e78;
+  font-size: 18px;
+  position: relative;
+  top: -1px;
+  left: 2px;
+  cursor: pointer;
+}
+
+.viewteam_width8 {
+  max-width: 800px !important;
+}
+
+.view_createdby9 {
+  font-weight: 500;
+}
+
+.view_createdby9 .span1 {
+  color: #b8b8b8;
+}
+
+.view_createdby9 .span2 .imgsize {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.appointment_viewall {
+  color: #4680d4;
+}
+
+.caret_appointment6 {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.appointment_request9 {
+  border-bottom: 1px solid #ededed;
+}
+
+.appointment_request9 .imgsize {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.appointment_request9 h5 {
+  font-size: 16px;
+}
+
+.appointment_request9 p {
+  font-size: 14px;
+  color: #404040;
+  margin-top: -3px;
+}
+
+.appointment_request9 h4 {
+  margin-top: -5px;
+}
+
+.appointment_request9 h4 span {
+  color: #9747ff;
+  font-size: 16px;
+}
+
+.appointment_request9 h5 .button1 {
+  background-color: #c9ecff;
+  height: 40px;
+  font-size: 14px;
+  width: 110px;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: #374bb8;
+  border: 0;
+  text-transform: capitalize;
+}
+
+.appointment_request9 h5 .button2 {
+  background-color: #fce7e7;
+  color: #e14545;
+}
+
+.careteamstatus{
+  background-color: #2f9c95;
+  width: 83%;
+  margin-left: 17%;
+  margin-bottom: -3.7%;
+}
+
+/* switch button css */
+
+.setstatus_team{
+  color: white;
+  font-size: 18px;
+  font-weight: 500; 
+}
+
+.careteam_switchtext {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
+
+.careteam_switchtext .switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 27px;
+  top: -1px;
+  margin-left: 6px;
+}
+
+.careteam_switchtext .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.careteam_switchtext .switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #263799;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.careteam_switchtext .switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 23px;
+  width: 23px;
+  left: 3px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  top: 2px;
+  right: 4px;
+}
+
+.careteam_switchtext .switch input:checked + .slider {
+  background-color: #d81010;
+}
+
+.careteam_switchtext .switch input:focus + .slider {
+  box-shadow: 0 0 1px #d81010;
+}
+
+.careteam_switchtext .switch input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.careteam_switchtext .switch .slider.round {
+  border-radius: 34px;
+}
+
+.careteam_switchtext .switch .slider.round:before {
+  border-radius: 50%;
+}
+
+.appointmentreq_card{
+  width: 95%;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.appointmentreq_card .imgsize {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.appointmentreq_card h5 {
+  font-size: 16px;
+}
+
+.appointmentreq_card h5 span {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: -8px;
+}
+
+.appointmentreq_card p {
+  font-size: 14px;
+  color: #404040;
+  margin-top: -3px;
+}
+
+.appointmentreq_border1{
+  border-right: 9px solid #ec9d89;
+}
+
+.appointmentreq_border2{
+  border-right: 9px solid #f0bf79;
+}
+
+.appointmentreq_border3{
+  border-right: 9px solid #78b9dc;
+}

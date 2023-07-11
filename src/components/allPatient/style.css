@@ -1,0 +1,1764 @@
+.patient_div {
+  position: relative !important;
+  top: -20px !important;
+}
+
+.add_newpatient {
+  font-size: 17px;
+  color: black;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.addpatient_input {
+  height: 65px;
+  width: 100%;
+  border: 2px solid #d2d2d2;
+  border-radius: 10px;
+  padding: 5px 15px 5px 10px;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.editcheckgroup {
+  width: 100%;
+}
+
+.editcheckgroup .icon {
+  color: red;
+  margin-left: 10px;
+  margin-top: 18px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.reflect_check98 {
+  accent-color: #1f7e78;
+  height: 15px;
+  width: 15px;
+  position: relative;
+  top: 2px;
+  margin-right: 7px;
+}
+
+.addpatient_input select {
+  height: 50px;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.addpatient_input input {
+  height: 50px;
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.addpatient_input::placeholder {
+  color: #9f9f9f;
+}
+
+.affirmations {
+  box-shadow: 0px 4px 20px #ccc9ca;
+  border-radius: 12px;
+  width: 100%;
+  padding: 22px 29px 30px 29px;
+}
+
+.affir_tile {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  margin-bottom: 30px;
+}
+
+.affir_tile button {
+  background: #1f7e78;
+  border-radius: 14px;
+  float: right;
+  color: white;
+  border: 0;
+  width: 27%;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  position: relative;
+  top: -5px;
+}
+
+.affir_checkbox {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.affir_checkbox_lifestyle {
+  font-size: 11px;
+  /* font-weight: 500; */
+  /* margin-bottom: 10px; */
+}
+
+.affir_checkbox input {
+  height: 17px;
+  width: 17px;
+  top: 2px;
+  accent-color: #1f7e78;
+  margin-right: 10px;
+  position: relative;
+}
+
+.apatient_reflect {
+  box-shadow: 0px 4px 20px #ccc9ca;
+  border-radius: 12px;
+  width: 100%;
+  padding: 30px 50px 30px 50px;
+}
+
+.apatient_reflect p {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.apatient_reflect p button {
+  background: #1f7e78;
+  border-radius: 10px;
+  float: right;
+  color: white;
+  border: 0;
+  width: 13%;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  position: relative;
+  top: -10px;
+}
+
+.apatient_reflect textarea {
+  border: 2px solid #d2d2d2;
+  border-radius: 14px;
+  outline: none;
+  margin-bottom: 17px;
+  width: 100%;
+  font-weight: 500;
+  padding: 15px 10px 5px 19px;
+}
+
+.edit_takecare1 {
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #1f7e78;
+  letter-spacing: 0.3px;
+}
+
+.editaffirmationdiv {
+  width: 100%;
+  box-shadow: 0px 4px 20px #ccc9ca;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.editaffirmationdiv p {
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #000;
+  letter-spacing: 0.3px;
+}
+
+.editaffirmationdiv textarea {
+  border: 2px solid #d2d2d2;
+  border-radius: 14px;
+  outline: none;
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px 10px 5px 19px;
+  font-weight: 500;
+}
+
+.edit_affirbtn {
+  background: #1f7e78;
+  border-radius: 10px;
+  height: 65px;
+  border: 0;
+  font-size: 19px;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  width: 60%;
+  letter-spacing: 0.4px;
+}
+
+.editcheckgroup {
+  width: 100%;
+}
+
+.editaffirmationdiv input {
+  height: 65px;
+  width: 100%;
+  border: 2px solid #d2d2d2;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  color: #9f9f9f;
+}
+
+.editcheckgroup .icon {
+  color: red;
+  margin-left: 10px;
+  margin-top: 18px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.allpatient_search {
+  background-color: white;
+  height: 60px;
+  background: #f0f0f0;
+  border-radius: 40.5px;
+  width: 100%;
+  display: flex;
+  padding: 3px 19px 6px 30px;
+}
+
+.allpatient_search input {
+  width: 90%;
+  height: 55px;
+  border: 0;
+  color: #575757;
+  background: #f0f0f0;
+  font-size: 17px;
+  font-weight: 500;
+  outline: none;
+  letter-spacing: 0.3px;
+}
+
+.allpatient_search .boxicon {
+  font-size: 20px;
+  margin-top: 18px;
+  margin-right: 8px;
+  color: #575757 !important;
+}
+
+.allpatient_name12 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  margin-top: 20px;
+}
+
+.patient_row1 {
+  width: 99%;
+}
+
+.goals_symtoms {
+  background: linear-gradient(271.53deg, #9d33ea 6.44%, #3740b8 96.56%);
+  box-shadow: 0px 4px 20px #ccc9ca;
+  border-radius: 12px;
+  width: 100%;
+  padding: 10px;
+  height: 240px;
+}
+
+.goals_symtoms p {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-left: 7%;
+}
+
+.goals_symtoms ul {
+  height: 171px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.goals_symtoms ul li {
+  color: white;
+  font-size: 13px;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+
+.goals_symtoms ol li {
+  color: white;
+  font-size: 13px;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+
+.goalsWarpper .card-title {
+  font-size: 16px;
+}
+
+.goalsWarpper ul {
+  height: 181px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.goalsWarpper ul li {
+  color: #000;
+  font-size: 13px;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+
+.goalsWarpper ol li {
+  color: #000;
+  font-size: 13px;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+
+.goalsWarpper > .cardBg1 {
+  background: radial-gradient(#00adff17, #0050ff54);
+  color: #000;
+}
+
+.goalsWarpper > .cardBg2 {
+  background: radial-gradient(#fffa0017, #00ff0054);
+  color: #000;
+}
+
+.goalsWarpper > .cardBg3 {
+  background: radial-gradient(#fffa0017, #ff610054);
+  color: #000;
+}
+
+.goalsWarpper > .cardBg4 {
+  background: radial-gradient(#00adff17, #ff02354e);
+  color: #000;
+}
+
+.allpatient_btn9color {
+  width: 35.4%;
+  margin-right: 14px;
+}
+
+.allpatient_btn9color:nth-last-child(2) {
+  margin-right: 0;
+}
+
+.choosep_title {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
+.choose_title4 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
+.choosep_title .icon {
+  float: right;
+  position: relative;
+  right: 10px;
+  top: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.chooseprogram_box {
+  background: #f0f0f0;
+  border-radius: 34px;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 88%;
+  display: flex;
+  padding: 3px 19px 6px 20px;
+  margin-bottom: 20px;
+}
+
+.chooseprogram_box input {
+  width: 90%;
+  height: 38px;
+  border: 0;
+  color: #575757;
+  font-size: 13px;
+  outline: none;
+  background: #f0f0f0;
+  letter-spacing: 0.3px;
+}
+
+.chooseprogram_box .boxicon {
+  font-size: 14px;
+  margin-top: 13px;
+  margin-right: 6px;
+  color: #575757 !important;
+}
+
+.chooselist_input {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.chooselist_input input {
+  accent-color: #1f7e78;
+  height: 13px;
+  width: 13px;
+  position: relative;
+  top: 1px;
+  margin-right: 3px;
+}
+
+.chooselist_mdiv8 {
+  position: relative;
+  top: 100px;
+}
+
+.allpatient_profile {
+  box-shadow: 0px 4px 20px #ccc9ca;
+  border-radius: 12px;
+  width: 100%;
+  padding: 20px;
+  height: 486px;
+  overflow-y: scroll;
+}
+
+.allpatient_profile::-webkit-scrollbar {
+  width: 8px;
+  background: white;
+}
+
+/* Optional: show position indicator in red */
+.allpatient_profile::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+.allpatient_profile:hover::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 7px;
+}
+
+.allpatient_profile img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.allpatient_profile .leftside {
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: -10px;
+}
+
+.allpatient_profile .rightside {
+  color: #6d6d6d;
+  /* text-transform: capitalize; */
+  font-size: 15px;
+  margin-bottom: -10px;
+}
+
+.allpatient_profile .mergeside {
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: -5px;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+.allpatient_profile .edit_profile {
+  font-size: 17px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: -5px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.allpatient_profile .edit_profile:hover {
+  color: #1f7e78;
+}
+
+.allpatient_profile .mergeside:hover {
+  color: #1f7e78;
+}
+
+.Jggvahus {
+  height: 300px;
+  background-color: red;
+}
+
+.allpatient_profile button {
+  background: #1f7e78;
+  border-radius: 10px;
+  color: white;
+  border: 0;
+  width: 100% !important;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.allpatient_seprate_btn {
+  width: 100% !important;
+}
+
+.allpatient_seprate_btn .link_text {
+  width: 100% !important;
+  margin-right: 10px;
+}
+
+.nutrishiftdiv {
+  background-color: #1f7e78;
+  /* height: 145px; */
+  width: 100%;
+  /* box-shadow: 0px 4px 20px #ccc9ca; */
+  border-radius: 12px;
+  /* padding-top: 43px; */
+  padding-top: 22px;
+  padding-bottom: 22px;
+  /* margin-top: -3px; */
+  /* margin-bottom: 13px; */
+}
+
+.nutrishiftdiv h5 {
+  font-size: 21px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.3px;
+  text-transform: capitalize;
+}
+
+.nutrishiftdiv p {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  margin-top: -4px;
+  margin: 0;
+}
+
+.nutrishift_overview {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.allwebwid30 {
+  width: 30%;
+}
+
+.allwebwid70 {
+  width: 70%;
+}
+
+.menbodyimg {
+  height: 70px;
+  margin-right: 2%;
+}
+
+.riskprofilehistory {
+  height: 90px;
+  margin-top: 14px;
+}
+
+.alltoday_txt1 {
+  font-size: 11px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.all_history_txt1 {
+  font-size: 11px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.all_loremtxt1 {
+  font-size: 10px;
+  text-transform: capitalize;
+  margin-top: -12px;
+}
+
+.infographicimg {
+  height: 130px;
+}
+
+.currread_imgt1 {
+  height: 120px;
+  width: 90%;
+}
+
+.mheight_fix {
+  height: 120px;
+}
+
+.currread_text1 {
+  font-size: 12px;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.margin_top_20 {
+  margin-top: 20px;
+}
+
+.moderate_txt1 {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #f4511e;
+  font-weight: 700;
+  writing-mode: vertical-rl;
+  margin-top: 14px;
+}
+
+.moderate_img1 {
+  height: 120px;
+}
+
+.reflect_check98 {
+  accent-color: #1f7e78;
+  height: 15px;
+  width: 15px;
+  position: relative;
+  top: 2px;
+  margin-right: 7px;
+}
+
+.goal_startendinput {
+  height: 45px;
+  width: 100%;
+  border: 2px solid #d2d2d2;
+  border-radius: 10px;
+  padding-left: 8px;
+  padding-right: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+  color: #9f9f9f;
+  /* text-transform: capitalize; */
+  margin-bottom: 20px;
+  /* color: #9f9f9f; */
+  background-color: #fff;
+}
+
+.goal_startendtitle {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  margin-bottom: 5px;
+}
+
+.goal_startend {
+  background: #f3f3f3;
+  box-shadow: 0px 4px 20px #ccc9ca;
+  border-radius: 12px;
+  width: 100%;
+  padding: 18px 15px 0px 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.care_pgtitle {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: black;
+  margin-top: 6px;
+  letter-spacing: 0.2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  width: 160px;
+  margin-right: -45px;
+}
+
+.lifestyle_scroll {
+  max-height: 260px;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 10px;
+}
+
+.lifestyle_scroll::-webkit-scrollbar {
+  width: 8px;
+  background: white;
+}
+
+/* Optional: show position indicator in red */
+.lifestyle_scroll::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+.lifestyle_scroll:hover::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 7px;
+}
+
+.mark_mandatory {
+  margin-left: 29px;
+  color: black !important;
+}
+
+.addpatient_margin8 {
+  margin-top: 32px;
+}
+
+.daily_journal {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 12px 40px 14px 40px;
+  border-radius: 4px;
+}
+
+.daily_journal img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.daily_journal h5 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  margin-top: 15px;
+  margin-left: 0px;
+}
+
+.usergoalh5 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  margin-top: 9px !important;
+  margin-left: -10px !important;
+}
+
+.daily_journal h5 span {
+  margin-top: 8px;
+}
+
+.date_formatright {
+  position: absolute !important;
+  top: 17px !important;
+}
+
+.daily_journal h5 input {
+  width: 130px;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  border-left: 1px solid grey;
+  margin-left: 10px;
+  padding-left: 10px;
+  position: relative;
+  top: 0px;
+}
+
+.active_assign_now {
+  background: #1f7e78;
+  border-radius: 12px;
+  height: 45px;
+  border: 0;
+  font-size: 15px;
+  color: white;
+  text-transform: capitalize;
+  padding-left: 30px;
+  padding-right: 30px;
+  letter-spacing: 0.3px;
+  margin-top: -1px;
+  font-weight: 500;
+  float: right;
+}
+
+/* .modal-backdrop {
+  display: none;
+} */
+
+.daily_journal h5 span .icon {
+  color: #1f7e78;
+  position: relative;
+  top: -3px;
+  left: 3px;
+  font-size: 18px;
+}
+
+.daily_journal p {
+  color: #6d6d6d;
+  margin-top: -8px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: -10px;
+  text-transform: capitalize;
+}
+
+.usergoal_div {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 30px 40px 70px 40px;
+  border-radius: 10px;
+  margin-top: -10px;
+  height: calc(100% - 20px);
+}
+
+.usergoal_div h6 {
+  text-transform: lowercase;
+}
+
+.usergoal_div h6:first-letter {
+  text-transform: uppercase;
+}
+
+.f_div_textarea {
+  background: #ffffff;
+  border: 2px solid #d2d2d2;
+  border-radius: 14px;
+  padding: 12px 28px 10px 10px;
+}
+
+.f_div_textarea ol li {
+  border-bottom: 1px solid #d2d2d2;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.usergoal_div textarea {
+  border: 2px solid #d2d2d2;
+  border-radius: 14px;
+  padding: 12px 28px 10px 28px;
+  width: 100%;
+  line-height: 30px;
+  outline: none;
+}
+
+.usergoal_div input {
+  border: 2px solid #d2d2d2;
+  border-radius: 14px;
+  padding: 13px 28px 15px 28px;
+  width: 100%;
+  outline: none;
+}
+
+.daily_cardsleep {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 30px 40px 20px 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: calc(100% - 20px);
+}
+
+.daily_cardsleep p {
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
+.daily_cardsleep table tbody tr .table_title5 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  line-height: initial;
+}
+
+.daily_cardsleep table tbody tr td {
+  line-height: initial;
+}
+
+.daily_cardsleep table tbody tr {
+  line-height: 14px;
+}
+
+.daily_cardsleep table tbody .table_para543 {
+  line-height: initial;
+  position: relative;
+  top: -5px;
+}
+
+.change_meal_plan {
+  background: #1f7e78;
+  border-radius: 12px;
+  height: 50px;
+  border: 0;
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  letter-spacing: 0.3px;
+  margin-top: -20px;
+  font-weight: 500;
+}
+
+.diet_imgepara {
+  position: relative;
+  top: 25px;
+  font-weight: 500;
+}
+
+.diet_meal_plan_text {
+  position: relative;
+  top: 0px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.diet_meal_plan_view_button {
+  position: relative;
+  top: 0px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #26a69a;
+  cursor: pointer;
+}
+
+.daily_journal_divwid {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 2px;
+}
+
+.dailyjournal_textimp {
+  height: 60px;
+  /* box-shadow: 0px 4px 20px #ccc9ca; */
+  background-color: #fff;
+  border-radius: 12px;
+  width: 100%;
+  color: white;
+  border: 0;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 17px;
+  letter-spacing: 0.3px;
+}
+
+.dailyjournal_textback0 {
+  background-color: #1f7e78;
+  border: 2px solid #1f7e78;
+  color: #fff;
+}
+
+.dailyjournal_textback1 {
+  border: 2px solid #0288d1;
+  color: #0288d1;
+}
+
+.dailyjournal_textback2 {
+  border: 2px solid #26a69a;
+  /* color: #26a69a; */
+  color: #fff;
+  background-color: #26a69a;
+}
+
+.dailyjournal_textback3 {
+  border: 2px solid #f4511e;
+  color: #f4511e;
+}
+
+.dailyjournal_textback4 {
+  border: 2px solid #ffa000;
+  color: #ffa000;
+}
+
+.dailyjournal_textback5 {
+  border: 2px solid #ff00c7;
+  color: #ff00c7;
+}
+
+.dailyjournal_textback6 {
+  border: 2px solid #90af24;
+  color: #90af24;
+}
+
+.givenameinput {
+  background-color: white;
+  height: 55px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  width: 60%;
+  display: flex;
+  padding: 3px 19px 6px 20px;
+  margin-left: 2.5%;
+  margin-bottom: 18px;
+  margin-top: 20px;
+}
+
+.givenameinput input {
+  width: 90%;
+  height: 47px;
+  border: 0;
+  font-size: 15px;
+  outline: none;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.lifestylesecond {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 30px 40px 20px 40px;
+
+  border-radius: 10px;
+}
+
+.lifestylesecond p {
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
+.lifestylesecond hr {
+  border-bottom: 1px solid #ccc9c9;
+}
+
+.lifestylesecond ol {
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.lifestylesecond ul {
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.lifestylesecond table tbody tr .table_title5 {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  position: relative;
+  bottom: -10px;
+}
+
+.lifestylesecond table tbody tr {
+  font-size: 15px;
+}
+
+.mypatient_activeprogram7 {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  width: 98%;
+  padding: 20px 40px 20px 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.mypatient_activeprogram7 img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.mypatient_activeprogram7 p {
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
+.mypatient_activeprogram7 table tbody {
+  font-size: 15px;
+  line-height: 0px;
+  font-weight: 500;
+}
+
+.mypatient_activeprogram7 table tbody span {
+  color: #1f7e78;
+  text-transform: capitalize;
+}
+
+.mypatcplan {
+  color: grey !important;
+  text-transform: lowercase !important;
+  margin-left: 20px;
+}
+
+.my_patient_groups_outer {
+  height: 530px;
+  width: 101%;
+  box-shadow: 0px 4px 10px rgba(204, 201, 202, 0.5);
+  border-radius: 12px;
+}
+
+.my_patient_groups_outer button {
+  background: #1f7e78;
+  border-radius: 12px;
+  height: 50px;
+  border: 0;
+  font-size: 15px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: -10px;
+  width: 80%;
+  letter-spacing: 0.3px;
+  margin-top: 20px;
+  margin-left: 10%;
+
+  font-weight: 500;
+}
+
+.my_patient_groups_inner {
+  height: 440px;
+  padding: 22px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.my_patient_groups_inner::-webkit-scrollbar {
+  width: 8px;
+  background: white;
+}
+
+/* Optional: show position indicator in red */
+.my_patient_groups_inner::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+.my_patient_groups_inner:hover::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 7px;
+}
+
+.onprocess99 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* width: 84%; */
+  justify-content: space-between;
+  gap: 2px;
+  /* margin-left: 16%; */
+  padding: 0 25px;
+}
+
+.onprocess99_cardinner {
+  width: 130px;
+  box-shadow: 0px 4px 20px #ccc9ca;
+  border-radius: 12px;
+  padding-top: 16px;
+  padding-bottom: 10px;
+}
+
+.onprocess99_cardouter p {
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
+.onprocess99_cardinner p {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
+.disable_link_program {
+  pointer-events: none;
+}
+
+.onprocess99_cardinner img {
+  height: 60px;
+}
+
+.patient_arrow_one {
+  height: 20px;
+  margin-top: 90px;
+  padding: 0 10px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.lifestyle_edit {
+  background: #1f7e78;
+  border-radius: 10px;
+  height: 40px;
+  border: 0;
+  font-size: 15px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: -10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  position: relative;
+  top: -3px;
+}
+
+.LifeStyleSearchInput {
+  width: 100%;
+  margin-left: 1%;
+}
+
+.LifeStyleSearchInput input {
+  height: 55px;
+  font-size: 17px;
+  padding-left: 15px;
+  width: 50%;
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 20px;
+}
+
+.LifeStyleSearchInput button {
+  background: #1f7e78;
+  border-radius: 10px;
+  height: 55px;
+  border: 0;
+  font-size: 16px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: -10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+}
+
+.react-datepicker__header__dropdown {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow {
+  top: 4px;
+}
+
+.rowlifestyle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Make the columns stack on top of each other */
+.rowlifestyle .column {
+  flex: 40%;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.error_alert_text4 {
+  color: #e65656;
+  margin-top: 10px;
+  /* text-transform: capitalize; */
+}
+
+.no-data-found {
+  color: #000;
+  font-size: 13px;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+  /* padding-left: 16px; */
+}
+
+.date_formatright {
+  position: absolute !important;
+  top: 17px !important;
+}
+
+.risk-middle-div-wrap {
+  height: 67px;
+  max-height: 100px;
+  width: 67px;
+  max-width: 100px;
+  background: #f7f7f7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.risk-middle-div {
+  height: 50px;
+  max-height: 100px;
+  width: 50px;
+  max-width: 100px;
+  background: white;
+  border-radius: 50%;
+  /* box-shadow: 0px 0px 18px 13px #cac9c978; */
+  box-shadow: 10px 13px 8px -9px #cac9c9;
+  display: flex;
+  flex-direction: column;
+  font-size: 6px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.risk-middle-text {
+  position: absolute;
+  top: 55%;
+  left: 34.5%;
+  font-size: 10px;
+  font-weight: bold;
+  color: green;
+  width: 55px;
+  text-align: center;
+}
+
+.risk_common {
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  width: 25px;
+  text-align: center;
+}
+
+.nutri_risk {
+  top: 21%;
+  left: 17%;
+}
+
+.toxin_removal {
+  top: 49%;
+  left: 7%;
+}
+
+.food_mata {
+  top: 77%;
+  left: 17%;
+}
+
+.imune_defense {
+  top: 77%;
+  left: 65%;
+}
+
+.harmonal_bal {
+  top: 49%;
+  left: 75%;
+}
+
+.stress_response {
+  top: 21.5%;
+  left: 64.5%;
+}
+
+.arrows_pagi {
+  color: #1f7e78;
+  font-size: 29px;
+  box-shadow: 0px 0px 12px -1px #57b7b1;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.avatar_warper {
+  position: relative;
+  cursor: pointer;
+}
+
+div.avatar_detail {
+  position: absolute;
+  display: none;
+  background: #fff;
+  top: 0px;
+  left: 61px;
+  padding: 15px 15px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 28px -5px #99999980;
+  width: 290px;
+  z-index: 100;
+  cursor: default;
+}
+
+.avatar_warper:hover > div.avatar_detail {
+  display: block;
+}
+
+.avt_link {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin-top: 20px;
+  color: #1f7e78;
+  cursor: pointer;
+}
+
+.avt_link:hover {
+  text-decoration: none;
+  color: #b1bcbb;
+}
+
+.lf_avt {
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.rt_avt {
+  font-size: 15px;
+  word-break: break-word;
+  margin-bottom: 0;
+}
+
+.avatar_warper:hover > div.avatar_detail {
+  display: block;
+}
+
+.patients_search_result {
+  position: absolute;
+  background-color: #fff;
+  width: 92%;
+  display: none;
+  top: 59px;
+  left: 50px;
+  padding: 16px;
+  height: 250px;
+  overflow: hidden;
+  overflow-y: auto;
+  z-index: 1;
+  box-shadow: 0px 0px 18px -6px #000000a3;
+  border-radius: 13px;
+}
+
+.patient_searchbox:focus + .patients_search_result {
+  display: block;
+}
+
+.careplantaskpopup {
+  position: absolute;
+  width: 1000px;
+  left: -50%;
+}
+
+.careplangoalpopup {
+  position: absolute;
+  width: 600px;
+  left: -15%;
+  top: 20px !important;
+}
+
+.patient_active_in {
+  float: right;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
+.recipe-select .css-1s2u09g-control,
+.recipe-select .css-1pahdxg-control,
+.meal-select .css-1s2u09g-control,
+.meal-select .css-1pahdxg-control {
+  margin-bottom: 0 !important;
+}
+
+.member-select .css-1pahdxg-control {
+  margin-bottom: 20 !important;
+  margin-right: -100 !important;
+}
+
+.member-select .css-1s2u09g-control {
+  margin-bottom: 20 !important;
+  margin-right: -100 !important;
+  border: 2px solid #d9d9d9 !important;
+  /* border-radius: 5px; */
+}
+
+.react-tabs {
+  position: relative;
+}
+
+.mealcustom-list {
+  position: relative;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding-right: 10px;
+  margin-right: 40px !important;
+  padding-left: 0;
+}
+
+.mealcustom-list .react-tabs__tab {
+  padding-right: 2.5rem;
+  white-space: nowrap;
+}
+
+.mealcustom-list::-webkit-scrollbar {
+  height: 8px;
+  background: white;
+}
+
+.mealcustom-list::-webkit-scrollbar-thumb {
+  background: #efefef;
+}
+
+.mealcustom-list + span.addDay {
+  content: url("data:image/svg+xml,%3Csvg stroke='currentColor' fill='white' stroke-width='0' viewBox='0 0 1024 1024' height='1.5em' width='1.5em' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm192 472c0 4.4-3.6 8-8 8H544v152c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8V544H328c-4.4 0-8-3.6-8-8v-48c0-4.4 3.6-8 8-8h152V328c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v152h152c4.4 0 8 3.6 8 8v48z'%3E%3C/path%3E%3C/svg%3E");
+  position: absolute;
+  inset-block: 0;
+  right: 0;
+  padding: 5px;
+  width: 40px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #26a69a;
+}
+
+.mealplan_input {
+  height: 65px;
+  width: 100%;
+  border: 2px solid #d2d2d2;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+  color: #9f9f9f;
+  /* margin-bottom: 20px; */
+  background-color: #fff;
+}
+
+.react-tabs__tab-panel--selected {
+  /* border-top: 1px solid #efefef; */
+  padding-top: 10px;
+}
+
+.metrix_select {
+  height: 30px;
+  /* width: 100px; */
+  border: 1.5px solid #d2d2d2;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  outline: none;
+  color: #9f9f9f;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+select.metrix_select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='grey' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.7rem center;
+  background-size: 1em;
+}
+
+.chart-tabs button.active {
+  background-color: #1f7e78;
+  color: #fff;
+}
+
+.accordion-button {
+  background-color: #efefef;
+}
+.sm-ft {
+  font-size: 0.9em;
+}
+
+/* Flip */
+.flip-content {
+  perspective: 1400px;
+  background-color: #fff;
+}
+
+.flip-content .content {
+  position: relative;
+  height: 540px;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-content .front,
+.flip-content .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-content .back {
+  transform: rotateY(180deg);
+}
+
+.flip-content.flip .content {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.event-none {
+  pointer-events: none;
+}
+
+.custom_changesearch {
+  position: absolute;
+  top: -126px;
+  width: 28%;
+  left: 50%;
+  border: 0;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 3px 30px 6px 20px;
+  margin-left: 0;
+  overflow: hidden;
+  margin-bottom: -45px;
+}
+
+.withl_dummy {
+  top: 217px !important;
+  left: 58.4% !important;
+  width: 21% !important;
+}
+
+.custom_changesearch input {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  font-size: 15px;
+  outline: none;
+  letter-spacing: 0.3px;
+}
+
+/* @media (min-width: 1351px) and (max-width: 1500px) {
+  .custom_changesearch{
+    top: -105px !important;
+ 
+   }
+} */
+
+.home-image-video {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 3.5em;
+  border-radius: 10px;
+  z-index: 999;
+  box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.095) !important;
+}
+
+.home-image-video .link_text {
+  color: black;
+}
+
+.home-image-video span {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 0px 15px 27px;
+  line-height: 0px;
+  margin-top: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  color: black;
+  text-align: left;
+}
+
+.home-image-video span:hover {
+  background-color: #f5f5f5;
+}
+.home-image-video span:active {
+  color: #fff;
+  background-color: #1f7e78;
+}
+
+
+.excel_sheetbtn{
+  background-color: white;
+  color: black;
+  height: 50px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border: 1px solid #BBB9B9;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 7px;
+position: absolute;
+left: 15px;
+}
+
+.xlname {
+  position: absolute;
+  inset: 70px 0 0;
+  margin: auto;
+  width: max-content;
+  height: max-content;
+}
+
+.addpatient_input input{
+  background-color: #F8F8F8 !important;
+}

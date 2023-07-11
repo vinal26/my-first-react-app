@@ -1,0 +1,536 @@
+.post_container {
+  background: #FAFCFE;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  border-radius: 12px;
+  padding: 10px;
+  /* width: 97%; */
+}
+
+.post_heading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  letter-spacing: .4px;
+}
+
+.richtextRecipe .ql-tooltip.ql-editing {
+  left: 0px !important;
+}
+
+.post_text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color:  #7A7A7A;
+  overflow: hidden;
+  margin-top: -9px;
+  height: 70px;
+}
+
+.h-auto {
+  min-height: 250px !important;
+  margin-top: 10px !important;
+}
+
+/* Fix the issue for editor two toolbar */
+.quill>.ql-toolbar:first-child {
+  /* display: none !important; */
+  /* PROD_CHANGES: Pls comment this line on production */
+}
+
+.ql-editor p {
+  font-size: 17px;
+}
+
+/* Fix the issue for editor height */
+.ql-container {
+  height: 531px !important;
+}
+
+.delete_blog {
+  /* width: 111%; */
+  width: 180px;
+  height: 56px;
+  background: #1f7e78;
+  color: #ffffff;
+  /* background: #d9d9d9;
+  border: none;
+  border-right: 8px solid #bbb9b983;
+  color: red; */
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 14px;
+  border: none;
+  /* border-bottom-left-radius: 14px; */
+  letter-spacing: .5px;
+}
+
+.delete_blog1 {
+  width: 111%;
+  /* width: 180px; */
+  height: 56px;
+  /* background: #1f7e78; */
+  /* color: #ffffff; */
+  background: #d9d9d9;
+  border: none;
+  border-right: 8px solid #bbb9b983;
+  color: red;
+  font-size: 17px;
+  font-weight: 700;
+  /* border-radius: 14px; */
+  /* border: none; */
+  border-bottom-left-radius: 14px;
+  letter-spacing: .5px;
+}
+
+.blog_modal_dialog {
+  /* margin-left: 480px;
+  margin-top: 250px; */
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.blog_modal_center {
+  margin-top: 250px;
+  background: #ffffff;
+  border-radius: 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.img_cover {
+  width: 100% !important;
+  height: 170px;
+  border-radius: 12px;
+  justify-content: center;
+}
+
+.post_image {
+  width: 100%;
+  height: 170px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.cancel_delete_blog1 {
+  width: 100%;
+  /* width: 180px; */
+  height: 56px;
+  margin-right: 5%;
+  /* margin-bottom: 5%; */
+  color: blue;
+  border: none;
+  border-left: 8px solid #bbb9b97e;
+  border-bottom-right-radius: 14px;
+  letter-spacing: .5px;
+  font-size: 17px;
+  font-weight: 700;
+  background: #d9d9d9;
+  /* border-radius: 14px; */
+}
+
+.cancel_delete_blog {
+  /* width: 100%; */
+  width: 180px;
+  height: 56px;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  /* color: blue; */
+  border: none;
+  /* border-left: 8px solid #bbb9b97e;
+  border-bottom-right-radius: 14px; */
+  letter-spacing: .5px;
+  font-size: 17px;
+  font-weight: 700;
+  background: #d9d9d9;
+  border-radius: 14px;
+}
+
+.modal_text_body {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.modal-title {
+  text-align: center !important;
+
+  color: #000000;
+}
+
+.modal_delete_text_component {
+  text-align: center;
+  color: #000000;
+}
+
+.modal_text_body_component {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: none;
+  color: #000000;
+  margin-top: -23px;
+  margin-bottom: -23px;
+}
+
+.post_black {
+  color: #000000;
+}
+
+.icon-tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.post_dots {
+  border-radius: 50%;
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  position: relative;
+
+}
+
+.post_dots:hover{
+  background-color: white !important;
+}
+
+.post_dots .icon {
+font-size: 17px;
+color: black;
+position: absolute;
+top: 6px;
+left: 6px;
+}
+
+.post_dots.dropdown-toggle::after {
+  display: none;
+}
+
+.modal-content {
+  /* border-radius: 12px; */
+  border-radius: 5px;
+}
+
+.modal-dialog {
+  max-width: 600px;
+}
+
+.btn-close {
+  color: #000000;
+  /* opacity: 1; */
+  opacity: 0.4;
+  font-size: 0.9em;
+}
+
+.description_inputg {
+  height: 65px;
+  width: 100%;
+  border: 2px solid #d2d2d2;
+  border-radius: 14px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.blog_description_input {
+  height: 65px;
+  width: 100%;
+  border: 2px solid #d2d2d2;
+  border-radius: 14px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.description_inputg::placeholder {
+  color: #000000;
+}
+
+.upload-icon {
+  opacity: 1;
+}
+
+.blog_editbtn5 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.blog_editicon {
+  position: relative;
+  top: -1.5px;
+  margin-right: 4px;
+}
+
+.blog_clickbox {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  border: 0;
+}
+
+.border_color_red {
+  border: 2px solid #e65656 !important;
+}
+
+.blog_error_text4 {
+  color: #e65656;
+  margin-top: 10px;
+  text-align: left !important;
+  /* text-transform: capitalize; */
+}
+
+.signUpMsg12 {
+  margin-left: 10.5%;
+}
+
+.blog-select .css-1s2u09g-control {
+  /* padding-top: 13px;
+  padding-bottom: 13px;
+  width: 100%;
+  border: 2px solid #d2d2d2 !important;
+  border-radius: 10px !important;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+  color: #d2d2d2; */
+}
+
+.blog-select .css-1pahdxg-control {
+  /* padding-top: 13px;
+  padding-bottom: 13px;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 2px solid #d2d2d2;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none !important;
+  color: #d2d2d2 !important; */
+}
+
+.blog-select .css-26l3qy-menu {
+  /* font-size: 16px;
+  font-weight: normal; */
+}
+
+
+
+
+
+/* new css ........................................................................ */
+
+.blognew_header span{
+float: right;
+display: flex;
+}
+
+.blognew_editicon{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.uploader-input-add222 {
+  /* height: 290px;
+  width: 69.2%; */
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  border-radius: 20px;
+  position: absolute;
+  opacity: 0;
+  margin-left: 0%;
+  /* margin-top: -290px; */
+}
+
+.blognew_wid100{
+  width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blognew_formwid{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blognew_formwid2{
+  width: 87.2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blogbtn_widfix{
+  width: 200px;
+  margin-left: 0px !important;
+}
+
+.blogbtn_widfix2{
+  width: 200px;
+  margin-right: 0px !important;
+}
+
+
+.schdule_datetime{
+  margin-top: -15px;
+  margin-bottom: -35px;
+}
+
+.blognew_editwid{
+  /* height: 190px !important;
+  width:47% !important; */
+}
+
+.scheduledpost_back{
+  background-color: #1f7e78;
+  color: white;
+  padding: 15px 10px 15px 10px;
+  font-size: 16px;
+margin-bottom: -15px;
+  border-radius: 12px;
+  margin-top: 11px;
+}
+
+.btoday_postp1{
+  font-size: 15px;
+  letter-spacing: .8px;
+  color: #7A7A7A;
+}
+
+.btoday_postp2{
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: -15% !important;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.blogpost_hscroll{
+  height: 90vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.blogpost_hscroll::-webkit-scrollbar {
+  width: 8px;
+  /* background: #A5D4D2; */
+}
+
+/* Optional: show position indicator in red */
+.blogpost_hscroll::-webkit-scrollbar-thumb {
+  background: #A5D4D2;
+}
+
+.blogpost_hscroll:hover::-webkit-scrollbar-thumb {
+  background: #2F9C95;
+  border-radius: 7px;
+}
+
+.view_imgwpara{
+  width:350px;height:250px;margin-right:25px;
+  float: left;border-radius: 12px;object-fit: cover;
+  border: 1px solid #ECECEC;
+
+}
+.viewblog_fpara{
+  margin-top: 20px;
+}
+.viewblog_fpara b{
+font-size: 24px;
+font-weight: 500 !important;
+text-transform: capitalize;
+}
+.viewblog_fpara span{
+color: #7A7A7A;
+line-height: 30px;
+}
+
+.blogdet_imgs{
+  height: 45px;
+  width: 45px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid #ECECEC;
+}
+
+.blogdet_paras{
+  font-size: 14px;
+  white-space: pre-line;
+  margin-left: 12px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+
+.three-dots:after {
+  cursor: pointer;
+  color: #000000;
+  content: '\2807';
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+
+.dropdown55 {
+  position: absolute;
+  right: 10px;
+  background-color: #66D;
+  box-shadow: 0px 0px 3px 3px #66D;
+  outline: none;
+  opacity: 0;
+  z-index: -1;
+  max-height: 0;
+  transition: opacity 0.1s, z-index 0.1s;
+}
+
+.dropdown-container55:focus {
+  outline: none;
+}
+
+.dropdown-container55:focus .dropdown55 {
+  opacity: 1;
+  z-index: 100;
+  max-height: 100vh;
+  transition: opacity 0.2s, z-index 0.2s;
+}
+
+/* Remove triangle from all dateinputs */
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::after,.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::before {
+  content: none;
+}
+
+.description_btnsave:disabled {
+  opacity: 0.2;
+}

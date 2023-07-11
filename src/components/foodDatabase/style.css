@@ -1,0 +1,153 @@
+.edit_recipe {
+  background-color: #1f7e78;
+  height: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 30px;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  border: 0;
+  text-transform: capitalize;
+  letter-spacing: 0.4px;
+  margin-left: 550px;
+}
+
+.edit_recipe span {
+  position: relative;
+  top: -2px;
+}
+
+.delete_recipe {
+  background-color: #d81010;
+  height: 35px;
+  letter-spacing: 0.4px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  border: 0;
+  text-transform: capitalize;
+}
+
+.recipe_image {
+  height: 45px;
+  width: 45px;
+  border-radius: 10%;
+  object-fit: cover;
+  margin-top: -7px;
+}
+
+.delete_recipe span {
+  position: relative;
+  top: -2px;
+}
+
+.update_btnsave {
+  background: #1f7e78;
+  border-radius: 10px;
+  height: 65px;
+  border: 0;
+  font-size: 19px;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  width: 100%;
+  justify-items: center;
+  letter-spacing: 0.4px;
+  margin-left: 40%;
+}
+
+.mealplan_table {
+  text-align: left;
+  padding-left: 55px;
+}
+
+.mealplan_name_td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mealPlan_file_td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  width: 400px;
+}
+
+.addDay_new89 {
+  height: 33px;
+  padding-left: 12px;
+  padding-right: 15px;
+  color: white;
+  background-color: #1f7e78;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 0;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+}
+
+.eye_viewmplan {
+  border: 1px solid #1f7e78;
+  border-radius: 50%;
+  color: #1f7e78;
+  padding: 4px 7px 4px 7px;
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+}
+
+.eye_viewmplan:hover {
+  background-color: #1f7e78;
+}
+
+.mealplan_input00 {
+  width: 100%;
+  border: 2px solid #d2d2d2;
+  border-radius: 10px;
+  padding: 15px 25px 10px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+  color: #9f9f9f;
+  background-color: #fff;
+}
+
+.eye_viewmplan .icon {
+  position: relative;
+  top: -2px;
+}
+
+.eye_viewmplan .icon:hover {
+  color: white;
+}
+
+.viewmeal_head88 {
+  width: 102%;
+}
+
+.viewmeal_head88 h4 .icon {
+  font-size: 20px;
+  margin-right: 10px;
+  position: relative;
+  top: -1px;
+}
+
+.viewmeal_desp88 {
+  color: #7a7a7a;
+  line-height: 30px;
+}
+
+.viewmeal_tags88{
+  font-weight: 500;
+}
+.viewmeal_tags88 span {
+  font-weight: 400;
+}

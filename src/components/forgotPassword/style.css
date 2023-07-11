@@ -1,0 +1,33 @@
+.otp_input {
+ 
+    height: 60px;
+    width: 80%;
+    border: 2px solid #d2d2d2;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    /* text-transform: capitalize; */
+    margin-bottom: 1px;
+  }
+  .otp_input::placeholder {
+    color: black;
+  }
+  .resend_btn{
+    color:#2F9C95;
+    outline:none;
+    border:none;
+    background-color: none;
+    background:none;
+    text-decoration: underline;
+  }
+  .login_otpfield {
+   width: 80%;
+    margin-left:10%;
+ 
+
+    
+    /* text-transform: capitalize; */
+    margin-bottom: 20px;
+  }
