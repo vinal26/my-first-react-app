@@ -6,23 +6,19 @@ on:
 
 jobs:
   build:
-  
     runs-on: ubuntu-latest
     #strategy:
        #matrix:
         #node-version: [16.20.1]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
-     - name: Update
-     - run: sudo apt update
-     - uses: actions/checkout@v2
-     - name: Use Node.js ${{ matrix.node-version }}
-       uses: actions/setup-node@v1
-     - with:
-        node-version: ${{ matrix.node }}
-        cache: 'npm'
-     - name: Install required libraries to run and deploy build folder to s3 bucket
-       run: |
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+      - name: Install required libraries to run and deploy build folder to s3 bucket
+        run: |
           echo "test 3"
           node --version
           npm ci --production
@@ -30,17 +26,17 @@ jobs:
           npm run build
           echo "test 5"
           npm test
-     - name: configure aws secret keys and deploy files of bild folder to s3 bucket.
-       env:
+      - name: configure aws secret keys and deploy files of bild folder to s3 bucket.
+        env:
           AWS_AK_VALUE: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SK_VALUE: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REG_VALUE: ${{ secrets.AWS_REGION }}
-       run: |
-        echo "test 6"
-        aws configure set aws_access_key_id $AWS_AK_VALUE 
-        aws configure set aws_secret_access_key $AWS_SK_VALUE 
-        aws configure set region $AWS_REG_VALUE
-        echo "test 7"
-        aws s3 ls
-        aws s3 sync build/ s3://my-first-react-app1
-        aws s3 ls s3://my-first-react-app1/
+        run: |
+         echo "test 6"
+         aws configure set aws_access_key_id $AWS_AK_VALUE 
+         aws configure set aws_secret_access_key $AWS_SK_VALUE 
+         aws configure set region $AWS_REG_VALUE
+         echo "test 7"
+         aws s3 ls
+         aws s3 sync build/ s3://my-first-react-app1
+         aws s3 ls s3://my-first-react-app1/
