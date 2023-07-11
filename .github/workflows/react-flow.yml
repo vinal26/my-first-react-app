@@ -14,10 +14,9 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
      - uses: actions/checkout@v1
-     - name: Use Node.js ${{ matrix.node-version }}
-       uses: actions/setup-node@v1
-        echo "test 2"
-       with:
+     #- name: Use Node.js ${{ matrix.node-version }}
+      # uses: actions/setup-node@v1- echo: "trgnr"
+     - with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
      - name: Install required libraries to run and deploy build folder to s3 bucket
