@@ -34,16 +34,15 @@ jobs:
         env:
           AWS_AK_VALUE: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SK_VALUE: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_PROFILE: ${{ secrets.AWS_PROFILE_NAME }}
+          AWS_PROFILE_NAME_VALUE: ${{ secrets.AWS_PROFILE_NAME }}
           AWS_REG_VALUE: ${{ secrets.AWS_REGION }}
         run: |
          # --profile $AWS_PROFILE_NAME_VALUE
          echo "test 6"
-         aws configure set aws_access_key_id $AWS_AK_VALUE 
-         aws configure set aws_secret_access_key $AWS_SK_VALUE 
-         AWS_PROFILE: ${{ secrets.AWS_PROFILE_NAME }}
-         aws configure set region $AWS_REG_VALUE
+         aws configure set aws_access_key_id $AWS_AK_VALUE --profile $AWS_PROFILE_NAME_VALUE
+         aws configure set aws_secret_access_key $AWS_SK_VALUE --profile $AWS_PROFILE_NAME_VALUE
+         aws configure set region $AWS_REG_VALUE --profile $AWS_PROFILE_NAME_VALUE
          echo "test 7"
-         aws s3 ls
-         aws s3 sync build/ s3://my-first-react-app1
-         aws s3 ls s3://my-first-react-app1/
+         aws s3 ls --profile $AWS_PROFILE_NAME_VALUE
+         aws s3 sync build/ s3://my-first-react-app1 --profile $AWS_PROFILE_NAME_VALUE
+         aws s3 ls s3://my-first-react-app1/ --profile $AWS_PROFILE_NAME_VALUE
