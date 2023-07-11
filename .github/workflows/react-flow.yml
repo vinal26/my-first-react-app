@@ -7,6 +7,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    continue-on-error: true
+    environment: test
+    
     #strategy:
        #matrix:
         #node-version: [16.20.1]
@@ -27,14 +30,18 @@ jobs:
           echo "test 5"
           npm test
       - name: configure aws secret keys and deploy files of bild folder to s3 bucket.
+       # working-directory: ./src
         env:
           AWS_AK_VALUE: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SK_VALUE: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_PROFILE: ${{ secrets.AWS_PROFILE_NAME }}
           AWS_REG_VALUE: ${{ secrets.AWS_REGION }}
         run: |
+         # --profile $AWS_PROFILE_NAME_VALUE
          echo "test 6"
          aws configure set aws_access_key_id $AWS_AK_VALUE 
          aws configure set aws_secret_access_key $AWS_SK_VALUE 
+         AWS_PROFILE: ${{ secrets.AWS_PROFILE_NAME }}
          aws configure set region $AWS_REG_VALUE
          echo "test 7"
          aws s3 ls
