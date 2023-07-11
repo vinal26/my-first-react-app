@@ -1,0 +1,11 @@
+# Files that are not required to run our app..
+dockerfile
+.gitignore
+.dockerignore
+examp.txt
+README.md
+docker-cmds.md
+
+# Directories which are going to create while running docker image..
+node_modules
+build
