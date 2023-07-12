@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React <h3> with </h3> vinal.
         </a>
       </header>
     </div>
